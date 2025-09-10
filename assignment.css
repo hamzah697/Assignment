@@ -1,0 +1,299 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #10101E;
+   
+  
+}
+.glow{
+  width: 200px;
+  height: 200px;
+  filter: blur(60px);
+  border-radius: 50%;
+}
+.one{
+  background: radial-gradient(circle,rgba(0,255,0,0.3),transparent);
+  bottom: 50px;
+  right: 100px;
+}
+.two{
+background: radial-gradient(circle,rgba(0,255,0,0.3),transparent);
+  bottom: 50px;
+  right: 100px;
+}
+
+.navbar{
+ display: flex;
+ justify-content: space-between;
+}
+.logo a{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #DBFF00; 
+    background-color: #DBFF00;
+    width: 120px;
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 110px;
+    text-decoration: none;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.nav-links  {
+  display: flex;
+  gap: 3vw;
+  list-style: none;
+  color: white;
+  font-size: 30px;
+  margin-right: 80px;
+ 
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.8s;
+    
+}
+.nav-links a:hover{
+ color: #2563EB;
+}
+
+.Header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+  
+}
+
+.Heading h1 {
+    font-family: Space Grotesk;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    
+}
+.Highlight{
+    color: #DBFF00;
+}
+.image-real{
+    display: flex;
+    justify-content:flex-end;
+        margin-right: 50px;
+ 
+}
+.image-real img{
+         width: 250px;
+         border: 1px solid #DBFF00;
+         margin-top: 10px;
+        
+        
+}
+.btn1{
+    background-color: #2563EB;
+    color: white;
+    width: 100px;
+    padding:  8px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   margin-left: 40px;
+   border: none;
+   transition: 0.6s;
+  
+  
+}
+.btn1:hover{
+  color: #10101E;
+  transform: scale(1.1);
+}
+.btn2{
+    border: 1px solid #10101E;
+    background-color: #10101E;
+    color: white;
+    margin-bottom: 60px;
+    transition: 0.6s;
+    padding-left: 20px;
+    border: none;
+
+  
+
+}
+.btn2:hover{
+  color: #2563EB;
+  transform: scale(1.1);
+}
+
+.Heading-2{
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+       vertical-align: bottom;
+   
+}
+.hr{
+    width: 250px;
+    margin-bottom: -50PX;
+}
+.p1{
+    color: gray;
+   margin-left: 20px;
+   margin-top: 30px;
+   margin-bottom: -20px;
+  
+  
+}
+.Whole{
+   display: flex;
+   justify-content: space-between;
+}
+.image-tech{
+    
+    border: 1px solid #10101E;
+}
+.image-tech img {
+    width: 500px;
+    height: 500px;
+   
+}  
+.Heading-3{
+    display: flex;
+    justify-content: center;
+      color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    gap: 5px; 
+    margin-bottom: 20px;}
+   
+.all {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  
+  
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,1);
+  margin-bottom: 80px;
+  transition: 0.6s;
+}
+.card:hover{
+  
+  transform: scale(1.1);
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,1), transparent);
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+ 
+}
+
+.overlay h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.overlay p {
+  margin: 5px 0 0;
+  font-size:14px;
+}
+.icon{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  color: black;
+}
+.ever{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-4{
+  color: white;
+  font-size: 30px;
+  font-family: Space Grotesk;
+  margin-left: 20px;
+  margin-bottom: 50px;
+
+}
+.p3{
+
+  color: gray;
+  font-size: 20px;
+}
+.logos{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 100px;
+ 
+ 
+}
+.logos img{
+  height: 60px;
+  width: 100px;
+  object-fit: contain;
+
+}
+.next{
+  font-size: 30px;
+  color: gray;
+
+}
+.heading-5{
+  font-size: 40px;
+  color: gray;
+  font-family: Quicksand;
+ margin-bottom: 15px;
+  
+}
+.font{
+  font-style: italic;
+  color: gray;
+  font-size: 30px;
+
+}
+
+
+
+
+
